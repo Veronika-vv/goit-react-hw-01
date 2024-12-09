@@ -1,0 +1,46 @@
+.profileWrap {
+  width: 300px;
+  border: thick double #32a1ce;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px auto 100px;
+}
+
+.profileImage {
+  max-width: 100%;
+}
+
+.profileName {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.profileUs {
+  text-align: center;
+  color: #bababa;
+  font-size: 20px;
+}
+
+.profileList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-top: 0.7px solid;
+  padding-top: 5px;
+}
+
+.profileList li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profileList li span:nth-child(2) {
+  color: #bababa;
+  font-size: 14px;
+  text-align: center;
+}

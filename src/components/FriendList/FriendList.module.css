@@ -1,0 +1,23 @@
+.friendsList {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+
+.friendsList li {
+  padding: 10px 15px;
+  border: thick double #32a1ce;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.friendsList li p:nth-child(2) {
+  font-size: 25px;
+}
+
+.friendsList li p:nth-child(3) {
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.table {
+  width: 800px;
+  margin: 0 auto;
+  border: thick double #32a1ce;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.thead {
+  background-color: #8d7b7b63;
+}
+
+.thead th {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.tbody th {
+  padding: 10px 0;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: rgba(96, 221, 255, 0.717);
+}
+
+.tbody tr:nth-child(odd) {
+  background-color: rgba(68, 202, 214, 0.338);
+}
